@@ -163,3 +163,22 @@ form input:valid{
 /* nav li:first-child {
     border: 3px solid #f63232;
 } */
+
+article p::first-line {
+    font-weight: bold;
+    font-size: 1.2 em;
+}
+
+section.join P::first-letter {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+p::selection {
+    background-color: red;
+    color: white;
+}
+
+p::after {
+    content: '     ????????'
+}
